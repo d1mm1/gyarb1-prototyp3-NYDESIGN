@@ -228,10 +228,32 @@ body {
     width: 270px;
 }
 
+.video-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+}
 
+.form-text p{
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.block-text p{
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 100px;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
 
 .videor {
-    margin-top: 200px;
+    margin: auto;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -242,6 +264,7 @@ body {
 }
 
 .video-section {
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -252,18 +275,27 @@ body {
 
 .video-text {
     flex: 1; 
-    padding-right: 200px; 
+    padding-right: 150px; 
 }
 
 .video-container {
     flex: 1; 
     max-width: 560px; 
     padding-bottom: 20px;
+    margin-right: 100px;
 }
 
 .video-section h1 {
     margin-bottom: 20px;
     color: #000;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.video-section h4 {
+    margin-bottom: 20px;
+    font-size: 27px;
+    color: #ff0000;
     font-family: 'Kanit', sans-serif;
 
 }
@@ -292,7 +324,7 @@ body {
 
 
 .video-section.reversed {
-    padding-top: 190px;
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
 }
@@ -302,8 +334,8 @@ body {
 }
 
 .video-section.reversed .video-text  {
-    padding-top: 30px;
-    padding-left: 350px;
+    padding-bottom: 200px;
+    padding-left: 250px;
     text-align: right
 }
 
@@ -321,7 +353,7 @@ body {
 
 .video-section.reversed h2{
     font-family: 'Kanit', sans-serif;
-    text-align: center;
+    text-align: right;
     padding-left: 150px;
     
 }
